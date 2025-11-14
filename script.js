@@ -8,8 +8,11 @@ async function hashPassword(password) {
 
 // Base de datos de especialistas (hash en vez de contraseñas)
 const especialistas = [
-    { email: "especialista1@ugel.gob.pe", pass: "a665a45920422f9d417e4867efdc", nombre: "Especialista Primaria" },
-    { email: "especialista2@ugel.gob.pe", pass: "ffeedd11223344556677889900aa", nombre: "Especialista Secundaria" }
+    { 
+        email: "especialista1@ugel.gob.pe",
+        pass: "1d7f5d42fa26aa547e2ddb681c6da56a4746112a65f00c8674661c67d5975352",
+        nombre: "Especialista Primaria"
+    }
 ];
 
 // LOGIN PRINCIPAL
@@ -45,3 +48,4 @@ async function login() {
         }
     }, 1000);
 }
+
